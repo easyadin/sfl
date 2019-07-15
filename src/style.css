@@ -1,0 +1,110 @@
+/*Google Font*/
+@import url('https://fonts.googleapis.com/css?family=Lobster|Lobster+Two|Patua+One|Rubik|Sniglet&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    
+}
+header{
+    overflow-x: hidden;
+}
+
+:root{
+    --Snigle-font:"Sniglet",cursive;
+    --Rubik:"Rubik",cursive;
+    --Lobster:"Lobster",cursive;
+    --Patua:"Patua One",cursive;
+    --light-black:#2e2c2caf;
+    --bggradient:linear-gradient(
+        to bottom,
+        #D74177, #FFE98A);
+    --light-gray:rgba(0,0,0,.6);
+}
+
+header a{
+    font-family: var(--Snigle-font);
+    font-size: 0.95em;
+    color:white;
+}
+
+header{
+    background: #dd2476;
+    background:var(--bggradient);
+}
+
+header .nav-item:last-child{
+    padding-right: 10.5em;
+}
+
+header .nav-item{
+    padding:0.0em;
+}
+
+header .navbar-brand{
+    padding-left: 0rem;
+}
+
+header .navbar-brand:hover{
+    color:rgb(240, 0, 92);
+}
+
+
+header .nav-link:hover{
+    color:rgb(240, 0, 92);
+}
+
+header .row .col-md-5{
+    padding:4.2vmin 1vmin;
+}
+
+header .row .col-md-7{
+    padding:20vmin 1vmin;
+    padding-bottom: 35vmin;
+    font-family: var(--Rubik);
+    color:white;
+}
+
+header .row .col-md-5 img{
+    width:700px;
+}
+
+header .container .col-md-7 h6{
+    padding: 1vmin;
+    letter-spacing: 4px;
+}
+
+header .container .col-md-7 h1{
+    font-size: 7vmin;
+    font-weight: bold;
+    padding: 0.1em 0em;
+}
+
+header .container .col-md-7 p{ 
+    padding: 1vmin 5vmin;
+}
+
+header .container .col-md-7 button{
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.resize_image{
+    width:100px;
+}
+
+.navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.9rem;
+    letter-spacing: .2rem;
+    background:rgba(0, 0, 0, .6)!important
+}
+
+.nav-brand {
+    height: 2rem;
+}
