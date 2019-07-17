@@ -5,81 +5,257 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+    <link rel="Stylesheet" href="footer.css"/>
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap" rel="stylesheet">
-
-    <title>Stress Free Learning</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css" />
+    <link rel="Stylesheet" href="animate.css"/>
     <link href="https://fonts.googleapis.com/css?family=Lobster|Lobster+Two|Patua+One|Rubik|Sniglet&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+    <link rel="Stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <title>Stress Free Learning</title>
 </head>
 
-
-<body data-spy="scroll" data-target="navbarResponsive">
+<body>
     <header>
-        <div class="container-fluid p-0"> 
-                                <!--Navigation-->
-            <nav class="navbar navbar-expand-md navbar-dark bg-dark py-0 ">
-                <a class="navbar-brand" href="#">
-                        <img src="sflLogo_0.5_Strokes_transparent.png" class="resize_image">
-                    Stress-free Learning</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon "></span>
+        <!--- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light py-2 fixed-top navbar-inverse">
+            <!-- logo and site name -->
+                    <a class="navbar-brand" href="#">
+                            <img src="/sflLogo_0.5_Strokes_transparent.png" width="20%" height="20%" alt="">
+                            Stress-Free Learning</a>
+                <!-- Collapsible button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                   
-                  <div class="navbar-nav ml-auto">
-                    <a class="nav-item nav-link active" href="#">Home<span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#">About</a>
-                    <a class="nav-item nav-link" href="#">github repo</a>
-                    <a class="nav-item nav-link" href="#">Contact</a>
-                  </div>
+                <!-- links navigation -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="navbar-nav ml-auto">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">GitHUb</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                     <a class="nav-link" href="#">Gallery</a>
+                    </li>
+                  </ul>
+                </div>
                 </div>
               </nav>
-        </div>
 
-        <div class="container text-center">
-            <div class="row">
-                    <div class="col-md-7 col-sm-12">
-                        <h6>A PLAYFUL TESTING PLATFORM FOR DYSLEXIA IN SCHOOL CHILDREN</h6>
-                        <h1>LEARNING WITHOUT OBSTRUSION</h1>
-                        <p>By assembling Thymio Robots - the children spell different words</p>
-                        <p>Error Correction | Spelling Correction | Free Play</p>
-                        <button class="btn btn-light px-5 py-2">ReadMore</button>
+<!-- carousel slider start here-->
+            <div class="bd-example">
+                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active banner">
+                      <img src="/boy.jpg" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-md-block">
+                        <h2 class="animated bounceInRight" style="animation-delay: 1s">A PLAYFUL TESTING PLATFORM FOR DYSLEXIA IN SCHOOL CHILDREN</h5>
+                        <p  class="animated bounceInLeft" style="animation-delay: 2s">The earlier a child with dyslexia is diagnosed the better educational and medical interventions</p>
+                      </div>
                     </div>
-                    <div class="col-md-5 col-sm-12 h-25">
-                        <img src="Robot-mobile-educatif-thymio-II-1.png" alt="thymioRobot"> 
+                    <div class="carousel-item banner">
+                      <img src="/blur-child-classroom-256468.jpg" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-md-block">
+                        <h2 class="animated slideInDown" style="animation-delay: 1s">LEARNING WITHOUT OBSTRUSION</h5>
+                        <p  class="animated fadeInUp" style="animation-delay: 2s">Our method includes obstrusive techniques to carry out test </p>
+                        <h2 class="animated slideInUp" style="animation-delay: 3s">Error Correction | Spelling Completion | Spelling | Free Play</h4>
+                      </div>
                     </div>
+                    <div class="carousel-item banner">
+                      <img src="/alphabet-boogle-dice-262529.jpg" class="d-block w-100" alt="...">
+                      <div class="carousel-caption  d-md-block">
+                        <h2 class="animated zoomIn" style="animation-delay: 1s">By assembling Thymio Robots, the children spell different words</h5>
+                        <p class="animated fadeInLeft" style="animation-delay: 2s">Our implementation makes uses letter-frequency to predict how likely it is for two letters to be next to each
+                            other.</p>
+                      </div>
+                      
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </div>
+<!-- slider carousel ends here -->
+</header>
+
+<main>
+<!--- main content area -->
+<div class="py-5 service-26">
+    <div class="container">
+        <div class="row wrap-service-26">
+            <div class="col-md-7 align-self-center">
+                <div class="max-box"> 
+										<span class="badge badge-info rounded-pill px-3 py-1 font-weight-light">Intended Use</span>
+                    <h3 class="mt-3">Stress Free Learning is a playful testing platform for dyslexia in school children</h3>
+                    <p class="mt-3">By assembling Thymio robots, the children spell different words. An administrator supervises the process and takes measurements such as completion time, error rates etc.</p>
+                    <p>On that basis, an indication can be made if the child might be suffering from dyslexia.</p>
+                    <a href="" class="linking">Learn More</a>
+                </div>
+            </div>
+            <div class="col-md-5 col-md-5"> 
+							<img src="/Robot-mobile-educatif-thymio-II-1.png" class="img-fluid" /> 
+						</div>
+        </div>
+        <div class="row wrap-service-26 mt-4 pt-3">
+            <div class="col-md-6"> 
+							<img src="img2.jpg" class="img-fluid" /> 
+						</div>
+            <div class="col-md-6 align-self-center">
+                <span class="badge badge-info rounded-pill px-3 py-1 font-weight-light">Background Algorithm</span>
+                <h3 class="mt-3">In English, there are no fixed spelling rules. Therefore, there is no sure way to tell which letters are acceptable next to each other</h3>
+                <p class="mt-3">In English, there are no fixed spelling rules. Therefore, there is no sure way to tell which letters are acceptable next to each other.</p>
+                <p>However, there are tendencies for certain letters to occur next to each other. To give a simple example, Q will be followed by U in almost all cases. The current implementation makes use of this fact to predict how likely it is for two letters to be next to each other.</p>
+                <a class="linking" href="javascript:void(0)">Learn More</a>
             </div>
         </div>
-    </header>
-
-    <main>
-        <!----Slider start here nigga-->
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"
-        data-interval="7000">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2" class="active"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-                <!-- Slide 1-->
-                <div class="carousel-item active" style="background-image: url(/images/boy)"></div>
-        </div> <!-- Ended carousel here-->
     </div>
-
-    <!-- End of image slider-->
-    </main>
-
-    <footer>
-
-    </footer>
+</div>
 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+
+
+
+<!-- Meet the team -->
+  <div class=" bg-primary  py-5 mb-4">
+      <div class="row text-center text-white">
+          <div class="col-lg-8 mx-auto">
+              <h1 class="display-4">Meet the Team</h1>
+          </div>
+      </div>
+  </div><!-- End -->
+  
+  
+  <div class="container">
+      <div class="row text-center">
+  
+          <!-- lilly -->
+          <div class="col-xl-3 col-sm-6 mb-5">
+              <div class="bg-white rounded shadow-sm py-5 px-4"><img src="lilly-prof.jpg" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                  <h5 class="mb-0">Lilly Schwazenbach</h5><span class="small text-uppercase text-muted">Team Lead | Syntatician </span>
+                  <ul class="social mb-0 list-inline mt-3">
+                      <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+                      <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+                      <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+                      <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+                  </ul>
+              </div>
+          </div><!-- End -->
+  
+          <!-- Surya -->
+          <div class="col-xl-3 col-sm-6 mb-5">
+              <div class="bg-white rounded shadow-sm py-5 px-4"><img src="sur_prof.jpg" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                  <h5 class="mb-0">Surya Kosaraju</h5><span class="small text-uppercase text-muted"> PWA DEVELOPER </span>
+                  <ul class="social mb-0 list-inline mt-3">
+                      <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+                      <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+                      <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+                      <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+                  </ul>
+              </div>
+          </div>
+          <!-- End -->
+  
+          <!-- EasyA -->
+          <div class="col-xl-3 col-sm-6 mb-5">
+              <div class="bg-white rounded shadow-sm py-5 px-4"><img src="easy_prof.jpg" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                  <h5 class="mb-0">Israel Ayokunnu</h5><span class="small text-uppercase text-muted"> FULL STACK DEVELOPER</span>
+                  <ul class="social mb-0 list-inline mt-3">
+                      <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+                      <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+                      <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+                      <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+                  </ul>
+              </div>
+          </div><!-- End -->
+  
+          <!-- Eliseo -->
+          <div class="col-xl-3 col-sm-6 mb-5">
+              <div class="bg-white rounded shadow-sm py-5 px-4"><img src="eliseo_prof.jpg" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                  <h5 class="mb-0">Eliseo Farrante</h5><span class="small text-uppercase text-muted">SUPERVISOR</span>
+                  <ul class="social mb-0 list-inline mt-3">
+                      <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-facebook-f"></i></a></li>
+                      <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-twitter"></i></a></li>
+                      <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-instagram"></i></a></li>
+                      <li class="list-inline-item"><a href="#" class="social-link"><i class="fa fa-linkedin"></i></a></li>
+                  </ul>
+              </div>
+          </div><!-- End -->
+      </div>
+  </div>
+</main>
+
+ <!-- Footer -->
+ <footer id="myFooter">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <h2 class="logo"><a href="#"><img src="/sflLogo_0.5_Strokes_transparent.png" width="70%"> </a></h2>
+            </div>
+            <div class="col-sm-2">
+                <h5>Get started</h5>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">GitHUb</a></li>
+
+                </ul>
+            </div>
+            <div class="col-sm-2">
+                <h5>About us</h5>
+                <ul>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Reviews</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-2">
+                <h5>Support</h5>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-3">
+                <div class="social-networks">
+                    <a href="https://twitter.com/learning_stress" class="twitter"><i class="fa fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/Stress-Free-Learning-334477994121716/" class="facebook"><i class="fa fa-facebook"></i></a>
+                    <a href="#" class="google"><i class="fa fa-instagram"></i></a>
+                </div>
+                <button type="button" class="btn btn-default">Contact us</button>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <p>© 2019 SFL-ExpoLive </p>
+    </div>
+</footer>
+  <!-- End -->
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
 </body>
 </html>
