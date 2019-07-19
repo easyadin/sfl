@@ -333,11 +333,11 @@ header .nav-item{
 
 
   .reduce-opacity{
-    background-color: rgba(56, 33, 75, 0.4);
+    background-color: rgba(56, 33, 75, 0.4)!important;
   }
    
   .article-bg-color{
-      background-color: rgba(18, 67, 122, 0.486);
+      background-color: rgba(18, 67, 122, 0.486)!important;
   }
 
 
